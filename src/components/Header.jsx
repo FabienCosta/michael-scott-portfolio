@@ -11,9 +11,7 @@ export default function Header() {
   const links = [
     { name: "Accueil", href: "#home" },
     { name: "À propos", href: "#about" },
-    { name: "Services", href: "#services" },
     { name: "Projets", href: "#projects" },
-    { name: "Contact", href: "#contact" },
     { name: "Témoignages", href: "#testimonials" },
   ];
 

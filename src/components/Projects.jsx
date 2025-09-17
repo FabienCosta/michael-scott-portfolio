@@ -6,7 +6,7 @@ const projects = [
     title: "Portfolio Personnel",
     description:
       "Mon portfolio personnel développé avec React et SASS, présentant mes projets, compétences et expériences en développement frontend.",
-    image: "/images/portfolio.pic.webp",
+    image: "/images/scott-quote.webp",
     link: "https://portfolio-fabien-costa.vercel.app/",
   },
   {
@@ -14,17 +14,17 @@ const projects = [
     title: "Axoria Blog",
     description:
       "Un blog tech où partager des astuces, tutoriels et projets autour du développement web.",
-    image: "/images/axoria.pic.webp",
+    image: "/images/scott-quote.webp",
     link: "https://blog-axoria-fcosta.vercel.app/",
   },
-  // {
-  //   id: 3,
-  //   title: "Kasa",
-  //   description:
-  //     "Plateforme pour échanger votre appartement pendant les vacances et profiter de séjours uniques à travers le monde.",
-  //   image: "/assets/projects/dashboard.webp",
-  //   link: "https://fabiencosta.github.io/",
-  // },
+  {
+    id: 3,
+    title: "Kasa",
+    description:
+      "Plateforme pour échanger votre appartement pendant les vacances et profiter de séjours uniques à travers le monde.",
+    image: "/images/scott-quote.webp",
+    link: "https://fabiencosta.github.io/",
+  },
 ];
 
 export default function Projects() {
