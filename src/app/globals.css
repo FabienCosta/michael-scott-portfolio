@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* ===========================
+   Layout & Scroll
+=========================== */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* pour le header fixe */
+}
+
+body {
+  font-family: var(--font-inter);
+  margin: 0;
+  background-color: #ffffff;
+  color: #111827; /* gris foncé par défaut */
+  /* Marges horizontales réduites sur mobile */
+  padding-left: 1rem;   /* 16px */
+  padding-right: 1rem;  /* 16px */
+}
+
+@media (min-width: 640px) {
+  body {
+    padding-left: 2rem;   /* 32px */
+    padding-right: 2rem;  /* 32px */
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding-left: 3rem;   /* 48px */
+    padding-right: 3rem;  /* 48px */
+  }
+}
+
+/* ===========================
+   Titres
+=========================== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+}
+
+/* ===========================
+   Paragraphes et liens
+=========================== */
+p, a {
+  font-family: var(--font-inter);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* ===========================
+   Classes utilitaires
+=========================== */
+.lolo {
+  background-color: red;
+}
