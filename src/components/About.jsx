@@ -4,10 +4,10 @@ export default function About({
   name = "Fabien",
   bio = "Développeur front-end spécialisé en React & Next.js, j’accompagne entreprises et indépendants dans la création de sites modernes, rapides et adaptés à leurs besoins.",
   objectives = "Vous souhaitez un site web moderne, rapide et adapté à vos besoins : qu’il s’agisse de présenter vos services, mettre en valeur vos projets ou attirer de nouveaux clients. Vous recherchez une solution simple, efficace et professionnelle.",
-  image = "/images/profile-pic-Fabien.png",
+  image = "/images/scott-id.webp",
 }) {
   return (
-    <section id="about" className="py-20 bg-gray-50">
+    <section id="about" className="bg-emerald-600 py-20 ">
       <div className="max-w-6xl mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12 items-center">
         <div className="flex justify-center">
           <Image

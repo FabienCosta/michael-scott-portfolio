@@ -1,17 +1,18 @@
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { Poppins, Inter } from "next/font/google";
+// import { Poppins, Inter } from "next/font/google";
+import { Fredoka, Quicksand } from "next/font/google";
 
 // Titres
-const poppins = Poppins({
+const poppins = Fredoka({
   subsets: ["latin"],
   weight: ["600", "700"], // Titres gras
   variable: "--font-poppins",
 });
 
 // Texte
-const inter = Inter({
+const inter = Quicksand({
   subsets: ["latin"],
   weight: ["400", "500"], // Texte normal
   variable: "--font-inter",
