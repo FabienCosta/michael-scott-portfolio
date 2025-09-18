@@ -1,22 +1,33 @@
 export default function Testimonials({ testimonials = null }) {
   const defaultTestimonials = [
     {
-      name: "Sophie Martin",
-      role: "Responsable Marketing",
+      name: "Michael Scott",
+      role: "Manager regional - Dunder Mifflin",
       feedback:
-        "Fabien a parfaitement compris nos besoins et a développé une solution web moderne, intuitive et adaptée à notre audience. Sa réactivité et son professionnalisme ont été exemplaires.",
+        "Si j’avais un pistolet avec deux balles et que j’étais dans une pièce avec Hitler, Ben Laden et Toby, je tirerais deux fois sur Toby.",
     },
     {
-      name: "Julien Lefèvre",
-      role: "CEO - StartUpTech",
+      name: "Dwight Schrute",
+      role: "Assistant regional du manager - Dunder Mifflin",
       feedback:
-        "Travailler avec Fabien a été un vrai plaisir. Il a su apporter des idées innovantes, anticiper les problèmes et livrer un site performant et esthétique dans les délais impartis.",
+        "Je n’aurais jamais pensé dire ça un jour, mais je pense que j’ai mangé trop de moelle osseuse.",
     },
     {
-      name: "Claire Dubois",
-      role: "Directrice Communication",
+      name: "Creed Bratton",
+      role: "Directeur de la qualité - Dunder Mifflin",
       feedback:
-        "Fabien est à l’écoute et force de proposition. Son travail sur notre projet web a été précis et efficace, avec une attention particulière aux détails et à l’expérience utilisateur.",
+        "J’ai été impliqué dans un certain nombre de cultes, à la fois en tant que leader et adepte. C’est plus drôle d’être un adepte mais tu te fais plus d’argent comme leader.",
+    },
+    {
+      name: "Kevin Malone",
+      role: "Comptable - Dunder Mifflin",
+      feedback:
+        "Des mini cupcakes ? Donc une version miniature d’un cupcake ? Qui est déjà une version miniature d’un gâteau ? Vous allez vous arrêter où ?",
+    },
+    {
+      name: "Michael Scott",
+      role: "Manager regional - Dunder Mifflin",
+      feedback: "That's what she said.",
     },
   ];
 
@@ -24,7 +35,7 @@ export default function Testimonials({ testimonials = null }) {
 
   return (
     <section id="testimonials" className="py-20 bg-white text-center">
-      <h2 className="text-3xl font-bold mb-12">Témoignages</h2>
+      <h2 className="text-3xl font-bold mb-12">Citations</h2>
       <div className="max-w-5xl mx-auto grid gap-8 md:grid-cols-3">
         {displayedTestimonials.map((t, index) => (
           <div

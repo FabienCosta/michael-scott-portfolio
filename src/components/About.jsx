@@ -42,8 +42,8 @@ import Image from "next/image";
 
 export default function About({
   name = "Michael Gary Scott",
-  bio = "le directeur régional le plus apprécié de Dunder Mifflin, avec une passion pour la gestion d'équipe et la création d'un environnement de travail positif. Fort de plusieurs années d'expérience dans la vente et la gestion, je suis dédié à aider les entreprises à atteindre leurs objectifs. Je crois fermement en l'importance de la communication, de l'humour et du travail d'équipe pour réussir dans n'importe quel domaine. ",
-  objectives = "Mon objectif est de continuer à développer mes compétences en leadership et en gestion, tout en contribuant au succès de mon équipe et de mon entreprise. Je suis toujours à la recherche de nouvelles opportunités pour apprendre et grandir, et je suis enthousiaste à l'idée de relever de nouveaux défis dans le futur. En dehors du travail, j'aime, entre autres, le hockey, les blagues de bureau et les réunions d'équipe improvisées.",
+  bio = "le directeur régional le plus apprécié de Dunder Mifflin, avec une passion pour la gestion d'équipe et la création d'un environnement de travail positif. Fort de plusieurs années d'expérience dans la vente et la gestion, je suis dédié à aider les entreprises à atteindre leurs objectifs. Je crois fermement en l'importance de la communication, de l'humour et les réunions d'équipe improvisées.. ",
+  objectives = "Quand je ne dirige pas Dunder Mifflin, je chante au karaoké, je joue au basket comme un pro, et j’improvise des sketchs dignes de Broadway. Mon vrai hobby ? demandez à Toby Flenderson.",
   image = "/images/scott-young.webp",
 }) {
   return (
@@ -69,13 +69,6 @@ export default function About({
           <p className="text-gray-700 leading-relaxed mb-6 max-w-xl">
             {objectives}
           </p>
-          <a
-            href="#services"
-            className="inline-block px-6 py-3 bg-blue-600 text-white font-bold rounded-xl shadow hover:bg-blue-500 transition focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-offset-2"
-            aria-label="Découvrir mes services"
-          >
-            Découvrir mes services
-          </a>
         </div>
       </div>
     </section>
