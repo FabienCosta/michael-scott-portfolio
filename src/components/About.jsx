@@ -47,7 +47,7 @@ export default function About({
   image = "/images/scott-young.webp",
 }) {
   return (
-    <section id="about" className="bg-white py-20">
+    <section id="about" className="bg-slate-50 py-20">
       <div className="max-w-6xl mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12 items-center text-center md:text-left">
         {/* Image */}
         <div className="flex justify-center md:justify-end">

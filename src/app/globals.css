@@ -11,7 +11,7 @@ html {
 body {
   font-family: var(--font-inter);
   margin: 0;
-  background-color: #ffffff;
+  background-color: #f8fafc;
   color: #111827; /* gris foncé par défaut */
   /* Marges horizontales réduites sur mobile */
   padding-left: 1rem;   /* 16px */
@@ -50,9 +50,3 @@ p, a {
   line-height: 1.6;
 }
 
-/* ===========================
-   Classes utilitaires
-=========================== */
-.lolo {
-  background-color: red;
-}
