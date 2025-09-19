@@ -34,9 +34,9 @@ export default function Testimonials({ testimonials = null }) {
   const displayedTestimonials = testimonials || defaultTestimonials;
 
   return (
-    <section id="testimonials" className="py-20 bg-slate-50 text-center">
-      <h2 className="text-3xl font-bold mb-12">Citations</h2>
-      <div className="max-w-5xl mx-auto grid gap-8 md:grid-cols-3 bg-slate-50">
+    <section id="testimonials" className="py-20 bg-slate-800 text-center">
+      <h2 className="text-gray-200 text-3xl font-bold mb-12">Citations</h2>
+      <div className="max-w-5xl mx-auto grid gap-8 md:grid-cols-3 bg-slate-8000">
         {displayedTestimonials.map((t, index) => (
           <div
             key={index}

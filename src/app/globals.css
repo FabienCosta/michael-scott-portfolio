@@ -11,7 +11,7 @@ html {
 body {
   font-family: var(--font-inter);
   margin: 0;
-  background-color: #f8fafc;
+  background-color: #374151;
   color: #111827; /* gris foncé par défaut */
   /* Marges horizontales réduites sur mobile */
   padding-left: 1rem;   /* 16px */

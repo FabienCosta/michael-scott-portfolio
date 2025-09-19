@@ -20,7 +20,7 @@ export default function Footer({
   copyrightText = "&copy;  the office.",
 }) {
   return (
-    <footer className="bg-gray-100 py-10">
+    <footer className="bg-gray-700 py-10">
       <div className="max-w-7xl mx-auto px-6 flex flex-col items-center gap-4">
         {/* Ligne contact + réseaux sociaux */}
         <div className="flex flex-col sm:flex-row items-center gap-6">
@@ -29,7 +29,7 @@ export default function Footer({
 
         {/* Copyright en dessous */}
         <p
-          className="text-gray-700 text-sm"
+          className="text-gray-200 text-sm"
           dangerouslySetInnerHTML={{ __html: copyrightText }}
         />
       </div>

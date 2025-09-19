@@ -47,8 +47,8 @@ export default function About({
   image = "/images/scott-young.webp",
 }) {
   return (
-    <section id="about" className="bg-slate-50 py-20">
-      <div className="max-w-6xl mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12 items-center text-center md:text-left">
+    <section id="about" className="bg-slate-800 py-20">
+      <div className="max-w-6xl mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-12 items-center text-white text-center md:text-left">
         {/* Image */}
         <div className="flex justify-center md:justify-end">
           <Image
@@ -63,10 +63,10 @@ export default function About({
         {/* Texte */}
         <div className="flex flex-col items-center md:items-start">
           <h2 className="text-3xl font-bold mb-6">À propos de moi</h2>
-          <p className="text-gray-700 leading-relaxed mb-4 max-w-xl">
+          <p className="text-gray-200 leading-relaxed mb-4 max-w-xl">
             Je m’appelle <span className="font-semibold">{name}</span>, {bio}
           </p>
-          <p className="text-gray-700 leading-relaxed mb-6 max-w-xl">
+          <p className="text-gray-200 leading-relaxed mb-6 max-w-xl">
             {objectives}
           </p>
         </div>

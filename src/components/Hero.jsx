@@ -33,7 +33,7 @@ export default function Hero({
         alt="Background"
         fill
         priority
-        className="object-cover"
+        className="object-cover scale-105 filter brightness-80 "
       />
 
       {/* Conteneur du contenu centré */}

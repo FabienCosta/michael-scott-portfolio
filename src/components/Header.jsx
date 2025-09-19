@@ -16,7 +16,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="w-full bg-slate-300 shadow-md fixed top-0 left-0 z-50">
+    <header className="w-full bg-slate-800 shadow-md fixed top-0 left-0 z-50">
       <div className="w-full mx-auto relative flex items-center justify-between py-2 px-6 lg:py-3 lg:px-8">
         {/* Logo */}
         <div
@@ -33,12 +33,12 @@ export default function Header() {
         </div>
 
         {/* Titre centré */}
-        <h1 className="absolute left-1/2 transform -translate-x-1/2 text-xl lg:text-2xl font-bold z-10">
+        <h1 className="absolute left-1/2 transform -translate-x-1/2 text-gray-200 text-xl lg:text-2xl font-bold z-10">
           Michael Scott
         </h1>
 
         {/* Nav desktop */}
-        <nav className="hidden lg:flex z-20 ml-auto">
+        <nav className="hidden lg:flex z-20 ml-auto text-gray-200">
           <ul className="flex space-x-6">
             {links.map((link) => (
               <li key={link.name}>
