@@ -55,7 +55,7 @@ export default function Header() {
 
         {/* Hamburger mobile */}
         <button
-          className="lg:hidden p-2 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded z-20"
+          className="text-gray-200  lg:hidden p-2 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded z-20"
           onClick={toggleMenu}
           aria-label="Ouvrir le menu"
         >
@@ -64,22 +64,32 @@ export default function Header() {
       </div>
 
       {/* Menu mobile */}
+      {/* Menu mobile */}
       {isOpen && (
-        <div className="lg:hidden bg-white shadow-md w-full z-10">
-          <ul className="flex flex-col gap-3 py-3 px-6">
-            {links.map((link) => (
-              <li key={link.name}>
-                <a
-                  href={link.href}
-                  onClick={() => setIsOpen(false)}
-                  className="hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded block"
-                >
-                  {link.name}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
+        <>
+          {/* Overlay pour fermer le menu en cliquant en dehors */}
+          <div
+            className="fixed inset-0 z-10"
+            onClick={() => setIsOpen(false)}
+          ></div>
+
+          {/* Menu mobile qui reste en dessous du header */}
+          <div className="text-gray-200 absolute top-full left-0 w-full bg-slate-800 shadow-md z-20">
+            <ul className="flex flex-col gap-3 py-3 px-6">
+              {links.map((link) => (
+                <li key={link.name}>
+                  <a
+                    href={link.href}
+                    onClick={() => setIsOpen(false)}
+                    className="hover:text-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 rounded block"
+                  >
+                    {link.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </>
       )}
     </header>
   );
